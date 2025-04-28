@@ -15,3 +15,6 @@ buildNumber.properties
 .project
 # JDT-specific (Eclipse Java Development Tools)
 .classpath
+/terraform/.terraform/*
+/terraform/.terraform.lock.hcl
+/.idea/

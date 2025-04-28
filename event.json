@@ -1,0 +1,17 @@
+{
+  "httpMethod": "POST",
+  "path": "/greet",
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "multiValueHeaders": {
+    "Content-Type": ["application/json"]
+  },
+  "body": "{\"name\":\"Tim\"}",
+  "isBase64Encoded": false,
+  "requestContext": {
+    "elb": {
+      "targetGroupArn": "arn:aws:elasticloadbalancing:region:account-id:targetgroup/target-group-name/1234567890abcdef"
+    }
+  }
+}
